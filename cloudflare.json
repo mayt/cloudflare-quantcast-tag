@@ -1,0 +1,54 @@
+{
+    "name": "Quantcast",
+    "description": "Quantify all your web pages with Quantcast",
+    "keywords": [
+        "analytics"
+    ],
+    "version": "0.0.1",
+    "contributors": [
+        {
+            "name": "Maytee Chinavanichkit",
+            "email": "maytee90@gmail.com"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mayt/cloudflare-quantcast-tag.git"
+    },
+    "main": "./public/javascripts/quantcast-includer.js",
+    "dependencies": {},
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/MIT"
+        }
+    ],
+    "implements": "AMD",
+    "scripts": {},
+    "config": {
+        "details" : {
+            "Category": "Analytics",
+            "Language": "English",
+            "Price": "Free",
+            "Restrictions": "View <a src=\"http://www.quantcast.com/learning-center/quantcast-terms/measurement-tos/\" target=\"_blank\">terms</a>",
+            "Quantcast Measure": "<a src=\"http://www.quantcast.com/learning-center/quantcast-terms/measurement-tos/\" target=\"_blank\">Terms of Service</a>"
+        },
+        "assets": {
+            "logos" : {
+                "200px": "./public/images/logo-200.png",
+                "132px": "./public/images/logo-132.png"
+            }
+        },
+        "payment": {},
+        "interface": [
+            {
+                "id": "pCode",
+                "name": "Your PCode",
+                "description": "Enter your Quantcast PCode below:",
+                "required": true,
+                "type": "string",
+                "placeholder": "p-1234567890abc"
+            }
+        ]
+    }
+}
