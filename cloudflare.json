@@ -1,9 +1,7 @@
 {
     "name": "Quantcast",
     "description": "Quantify all your web pages with Quantcast",
-    "keywords": [
-        "analytics"
-    ],
+    "category": "analytics",
     "version": "0.0.1",
     "contributors": [
         {
